@@ -1,0 +1,8 @@
+#!/bin/bash#week 4
+#make a list of names for deb.txtecho “names” > deb.txt
+#add the names to deb.txtecho “paco” >> deb.txtecho “jose” >> deb.txtecho "julio" >> deb.txt
+#list text for deb.txtcat deb.txt#make directory folder named juanmkdir juan
+#Move deb.txt to juan foldermv deb.txt/juan#change directory to juan foldercd juan
+#check the current working directory pathpwd
+#checks the devices hardwarelsblk -ln
+#show hardware devices ULID blkid/dev/names
